@@ -12,6 +12,7 @@ services:
       - app-network
 
   backend:
+    image: tp3:backend
     build:
       context: ./backend
       dockerfile: Dockerfile
@@ -27,6 +28,7 @@ services:
       - app-network
 
   frontend:
+    image: tp3:frontend
     build:
       context: ./frontend
       dockerfile: Dockerfile
