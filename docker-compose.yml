@@ -27,6 +27,7 @@ services:
       - MONGO_URL=mongodb://mongodb:27017/reverse_todo
     networks:
       - app-network
+  
 
   frontend:
     image: ${DOCKER_USERNAME}/tp3:frontend
@@ -50,5 +51,3 @@ volumes:
 networks:
   app-network:
     driver: bridge
-
-
