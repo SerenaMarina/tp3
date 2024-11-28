@@ -65,3 +65,5 @@ jobs:
           source_ref: 'dev' # Source branch is 'dev'
           target_branch: 'main' # Target branch is 'main'
           commit_message_template: '[Automated] Merged {source_ref} into target {target_branch}'
+
+          
